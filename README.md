@@ -29,6 +29,7 @@ Just a few things I would do with more time.
 - Rewrite in TypeScript
 - Add tests
 - Add browser polyfills
+- Add prop types
 - Improve accessibility
 - Expand theme (add dark theme)
 
