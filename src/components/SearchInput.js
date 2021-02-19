@@ -3,14 +3,13 @@ import useStore from 'store';
 import './SearchInput.css';
 
 function SearchInput() {
+  const fetch = useStore(state => state.fetch);
   const [searchTerm, setSearchTerm] = useState('');
   const handleInputChange = e => setSearchTerm(e.target.value);
   const handleFormSubmit = e => {
     e.preventDefault();
     return false;
   };
-
-  const fetch = useStore(state => state.fetch);
 
   useEffect(() => {
     fetch(searchTerm);
@@ -27,6 +26,7 @@ function SearchInput() {
           Search for Pictures:
         </label>
         <input
+          autoComplete="off"
           className="search-input"
           name="search-input"
           value={searchTerm}

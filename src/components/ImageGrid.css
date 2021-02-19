@@ -26,13 +26,14 @@
   transition: opacity 0.25s linear;
 }
 
-.image-grid-empty {
+.image-grid-message {
   align-items: center;
   background-color: rgb(243, 245, 247);
   border-radius: var(--theme-border-radius);
   color: #aaa;
   display: flex;
   height: 100px;
+  margin-top: 15px;
   justify-content: center;
   width: 100%;
 }

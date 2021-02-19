@@ -1,6 +1,6 @@
 # Unsplash Search API Front-End
 
-Simple lightweight front-end for the Unsplash image search API.
+Simple light-weight front-end for the Unsplash image search API.
 
 # Setup
 
@@ -13,14 +13,27 @@ To run this project:
 
 # Design
 
-- Input field searches as user types
-- Using Zustand as a lightweight store to encapsulate fetching and response data
-- Simple flexible grid layout using CSS grid (images restricted to squares for appearance)
+- Using React because of the great ecosystem and tooling (fan of StencilJS and Web Componentns, as well)
+- Using Zustand as a light-weight store to encapsulate fetching and response data
 - Using CSS variables (kind of) to establish design tokens for a consistent theme
+- Simple flexible grid layout using CSS grid (images restricted to squares for appearance)
+- Input field searches as user types rather than on submit (easier and more intuitive, in my opinion)
+- Responsive layout (for the most part)
 
 # Future Considerations
 
+Just a few things I would do with more time.
+
+## Structural
+
 - Rewrite in TypeScript
+- Add tests
+- Add browser polyfills
+- Improve accessibility
+- Expand theme (add dark theme)
+
+## Functional
+
 - Accommodate various image sizes while maintaining consistent grid spacing
-- Add additional tests
-- Expand theme
+- Debounce/throttle API calls (maybe prevent searching while typing)
+- Improve loading, error, and empty images states
