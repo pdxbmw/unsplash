@@ -1,0 +1,34 @@
+:root {
+  /* Fonts */
+  --theme-fonts-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  --theme-fonts-monospaced: source-code-pro, Menlo, Monaco, Consolas,
+    'Courier New', monospace;
+  /* Colors */
+  --theme-colors-white: #fefefe;
+  --theme-colors-black: #010101;
+  --theme-colors-red: #db2828;
+  --theme-colors-orange: #f2711c;
+  --theme-colors-yellow: #fbbd08;
+  --theme-colors-olive: #b5cc18;
+  --theme-colors-green: #21ba45;
+  --theme-colors-teal: #00b5ad;
+  --theme-colors-blue: #2185d0;
+  --theme-colors-violet: #6435c9;
+  --theme-colors-purple: #a333c8;
+  --theme-colors-pink: #e03997;
+  --theme-colors-brown: #a5673f;
+  --theme-colors-gray: #d3d7da;
+  --theme-colors-primary: blue;
+  --theme-colors-text: #111212;
+  --theme-colors-background: #fff;
+  --theme-colors-secondary: #6d59f0;
+  --theme-colors-muted: #f6f6f9;
+  --theme-colors-highlight: hsla(205, 100%, 40%, 0.125);
+  --theme-colors-disabled: rgba(40, 40, 40, 0.3);
+  --theme-colors-disabled-inverted: rgba(225, 225, 225, 0.3);
+  /* Borders */
+  --theme-border-radius: 0.25em;
+  --theme-border-color-focus: rgba(44, 170, 228, 0.685);
+}

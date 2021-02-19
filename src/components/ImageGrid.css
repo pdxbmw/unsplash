@@ -1,0 +1,38 @@
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 300px;
+  grid-auto-flow: dense;
+  gap: 10px;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.image-grid-item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-grid-item.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.25s opacity 0.25s linear;
+}
+
+.image-grid-item.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.25s linear;
+}
+
+.image-grid-empty {
+  align-items: center;
+  background-color: #eee;
+  border-radius: var(--theme-border-radius);
+  color: #aaa;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  width: 100%;
+}
