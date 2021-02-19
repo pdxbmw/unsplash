@@ -28,7 +28,7 @@
 
 .image-grid-empty {
   align-items: center;
-  background-color: #eee;
+  background-color: rgb(243, 245, 247);
   border-radius: var(--theme-border-radius);
   color: #aaa;
   display: flex;

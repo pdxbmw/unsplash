@@ -21,7 +21,6 @@ To run this project:
 # Future Considerations
 
 - Rewrite in TypeScript
-- Cache responses from Unsplash API
 - Accommodate various image sizes while maintaining consistent grid spacing
 - Add additional tests
 - Expand theme

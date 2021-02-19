@@ -23,18 +23,19 @@ const Image = ({ alt, src }) => {
 function ImageGrid() {
   const images = useStore(state => state.images);
 
-  console.log('images', images);
-
   return (
     <div className="image-grid">
-      {!images.length && <NoImages />}
-      {images?.map(item => (
-        <Image
-          alt={item?.alt_description}
-          key={item?.id}
-          src={item?.urls?.small}
-        />
-      ))}
+      {images?.length ? (
+        images?.map(item => (
+          <Image
+            alt={item?.alt_description}
+            key={item?.id}
+            src={item?.urls?.small}
+          />
+        ))
+      ) : (
+        <NoImages />
+      )}
     </div>
   );
 }

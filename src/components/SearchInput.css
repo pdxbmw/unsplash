@@ -18,7 +18,7 @@
 }
 
 .search-input {
-  border: 1px solid var(--theme-colors-gray);
+  border: 2px solid var(--theme-colors-gray);
   border-radius: var(--theme-border-radius);
   display: block;
   padding: 0.6em 1em;
