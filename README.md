@@ -38,3 +38,4 @@ Just a few things I would do with more time.
 - Accommodate various image sizes while maintaining consistent grid spacing
 - Debounce/throttle API calls (maybe prevent searching while typing)
 - Improve loading, error, and empty images states
+- Add a button to clear the input field
