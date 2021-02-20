@@ -31,6 +31,7 @@ Just a few things I would do with more time.
 - Add browser polyfills
 - Add prop types
 - Improve accessibility
+- Create GitHub Actions workflow for GitHub Pages CI/CD
 - Expand theme (add dark theme)
 
 ## Functional
