@@ -1,5 +1,5 @@
 import create from 'zustand';
-import { searchImagesByName } from 'services/api';
+import { searchImagesByName } from 'api/unsplash';
 
 export const useStore = create(set => ({
   images: [],
